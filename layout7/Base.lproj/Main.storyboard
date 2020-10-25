@@ -21,7 +21,19 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnc-g9-ckp">
                                         <rect key="frame" x="0.0" y="0.0" width="828" height="818"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nuO-Bm-3qo">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="nuO-Bm-3qo" firstAttribute="width" secondItem="tnc-g9-ckp" secondAttribute="width" multiplier="0.5" id="CC6-gc-1kf"/>
+                                            <constraint firstItem="nuO-Bm-3qo" firstAttribute="leading" secondItem="tnc-g9-ckp" secondAttribute="leading" id="UAD-fJ-chg"/>
+                                            <constraint firstAttribute="bottom" secondItem="nuO-Bm-3qo" secondAttribute="bottom" id="edE-Hx-M2K"/>
+                                            <constraint firstItem="nuO-Bm-3qo" firstAttribute="top" secondItem="tnc-g9-ckp" secondAttribute="top" id="mGx-KJ-K4a"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -54,6 +66,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
